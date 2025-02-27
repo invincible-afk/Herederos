@@ -9,8 +9,8 @@ const About = () => {
   });
 
   return (
-    <section id="nosotros" className="py-20 bg-primary">
-      <div className="container mx-auto px-4">
+    <section id="nosotros" className="py-20 bg-primary overflow-hidden">
+      <div className="container mx-auto px-4 max-w-screen-xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             ref={ref}
