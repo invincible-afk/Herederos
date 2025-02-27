@@ -28,10 +28,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#inicio" className="flex items-center space-x-2">
             <img 
-              src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" 
-              alt="Herederos Logo" 
-              className="w-10 h-10 object-cover rounded-full"
-            />
+  src="/img/logo.png" 
+  alt="Herederos Logo" 
+  className="w-10 h-10 object-cover rounded-full"
+/>
+
             <span className="text-xl font-bold">Herederos</span>
           </a>
 
