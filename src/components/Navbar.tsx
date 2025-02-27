@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#inicio" className="flex items-center space-x-2">
             <img 
-  src="/img/logo.png" 
+  src="/img/logo-herederos.jpg" 
   alt="Herederos Logo" 
   className="w-10 h-10 object-cover rounded-full"
 />
