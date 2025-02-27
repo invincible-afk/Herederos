@@ -16,7 +16,7 @@ const Footer = () => {
               Transformando ideas en experiencias inolvidables.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+              <a href="https://www.instagram.com/p/DGj8pcEOE-G/?igsh=MW1nZjE0M2xwZDJ1cw==" className="text-gray-400 hover:text-secondary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
@@ -60,7 +60,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-5 h-5 text-secondary" />
-                <span>+54 (264) 444-5057</span>
+                <span>+54 (264) 527-4235</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail className="w-5 h-5 text-secondary" />
