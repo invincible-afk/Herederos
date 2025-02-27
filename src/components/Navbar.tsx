@@ -30,7 +30,7 @@ const Navbar = () => {
             <img 
   src="/img/logo-herederos.jpg" 
   alt="Herederos Logo" 
-  className="w-10 h-10 object-cover rounded-full"
+  className="w-20 h-20 object-cover rounded-full"
 />
 
             <span className="text-xl font-bold">Herederos</span>
