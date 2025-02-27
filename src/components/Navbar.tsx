@@ -14,23 +14,22 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-black py-6 transition-all duration-300"> 
       <div className="container mx-auto px-4"> 
         <div className="flex justify-between items-center"> 
-          <a href="#inicio" className="flex items-center space-x-4"> 
-            {/* Logo más grande */}
-            <img  
-              src="/img/logo-herederos.jpg"  
-              alt="Herederos Logo"  
-              className="w-24 h-24 object-cover rounded-full" 
-            /> 
+          <a href="#inicio" className="flex items-center space-x-4">
+  {/* Logo más grande */}
+  <img  
+    src="/img/logo-herederos.jpg"  
+    alt="Herederos Logo"  
+    className="w-24 h-24 object-cover rounded-full"
+  />
 
-            {/* Imagen en lugar del texto */}
-           <img  
-  src="/img/herederos-productora.jpg"  
-  alt="Herederos"  
-  className="h-32 w-32 object-contain" 
-/>
+  {/* Imagen en lugar del texto */}
+  <img  
+    src="/img/herederos-productora.jpg"  
+    alt="Herederos"  
+    className="h-24 w-auto object-contain"
+  />
+</a>
 
-
-          </a> 
 
           {/* Menú de escritorio */} 
           <div className="hidden md:flex space-x-8"> 
