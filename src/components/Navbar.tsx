@@ -26,7 +26,7 @@ const Navbar = () => {
             <img  
               src="/img/herederos-productora.jpg"  
               alt="Herederos"  
-              className="w-16 object-contain" 
+              className="w-20 object-contain" 
             />
           </a> 
 
