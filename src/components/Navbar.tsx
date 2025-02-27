@@ -23,11 +23,12 @@ const Navbar = () => {
             /> 
 
             {/* Imagen en lugar del texto */}
-            <img  
-              src="/img/herederos-productora.jpg"  
-              alt="Herederos"  
-              className="w-20 object-contain" 
-            />
+           <img  
+  src="/img/herederos-productora.jpg"  
+  alt="Herederos"  
+  className="h-24 w-auto object-contain" 
+/>
+
           </a> 
 
           {/* Menú de escritorio */} 
