@@ -29,7 +29,7 @@ const Hero = () => {
             <span className="block text-secondary">MOMENTOS</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white">
-            Transformamos tus ideas en eventos inolvidables. Somos expertos en crear momentos que perduran.
+            Transformamos tus ideas en eventos inolvidables. Somos expertos en crear experiencias que perduran.
           </p>
         </motion.div>
 
