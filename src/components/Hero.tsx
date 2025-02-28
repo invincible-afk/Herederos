@@ -26,7 +26,7 @@ const Hero = () => {
         >
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 text-white leading-tight break-words w-full">
             <span className="block text-stroke">CREAMOS</span>
-            <span className="block text-secondary">EXPERIENCIAS</span>
+            <span className="block text-secondary">MOMENTOS</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white">
             Transformamos tus ideas en eventos inolvidables. Somos expertos en crear momentos que perduran.
