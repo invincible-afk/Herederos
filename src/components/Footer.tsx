@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               {/* Logo de Herederos */}
               <img
-                src="/img/logo-herederos.jpg"
+                src="/img/logo-footer.jpg"
                 alt="Herederos Logo"
                 className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover rounded-full"
               />
