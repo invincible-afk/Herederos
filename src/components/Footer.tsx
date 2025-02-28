@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter, Mail, MapPin, Phone, Sparkles } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,9 +8,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Sparkles className="w-8 h-8 text-secondary" />
-              <span className="text-xl font-bold">Herederos</span>
+            <div className="flex items-center space-x-3 mb-4">
+              {/* Logo de Herederos */}
+              <img
+                src="/img/logo-herederos.jpg"
+                alt="Herederos Logo"
+                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover rounded-full"
+              />
             </div>
             <p className="text-gray-400 mb-4">
               Transformando ideas en experiencias inolvidables.
