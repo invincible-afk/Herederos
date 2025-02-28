@@ -65,7 +65,7 @@ const Services = () => {
   });
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "2644445057"; // Número de WhatsApp sin el "+"
+    const phoneNumber = "2645274235"; // Número de WhatsApp sin el "+"
     const message = "¡Hola! Me gustaría recibir información sobre sus servicios para eventos.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
