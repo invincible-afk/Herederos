@@ -19,3 +19,8 @@
   -webkit-text-stroke: 1px white;
   color: transparent;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
