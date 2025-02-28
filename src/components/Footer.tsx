@@ -44,7 +44,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2">
               <li className="text-gray-400">Producción de Eventos</li>
-              <li className="text-gray-400">Booking de Artistas</li>
               <li className="text-gray-400">Producción Audiovisual</li>
               <li className="text-gray-400">Gestión de Venues</li>
             </ul>
