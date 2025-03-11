@@ -1,7 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
+  const [visitorCount, setVisitorCount] = useState(0);
+
+  useEffect(() => {
+    const storedCount = localStorage.getItem('visitorCount');
+    if (!localStorage.getItem('visited')) {
+      const newCount = storedCount ? parseInt(storedCount, 10) + 1 : 1;
+      localStorage.setItem('visitorCount', newCount);
+      localStorage.setItem('visited', 'true'); // Marca como visitado
+      setVisitorCount(newCount);
+    } else {
+      setVisitorCount(storedCount ? parseInt(storedCount, 10) : 1);
+    }
+  }, []);
+
   return (
     <footer className="bg-black pt-16 pb-8">
       <div className="container mx-auto px-4">
@@ -9,7 +23,6 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              {/* Logo de Herederos */}
               <img
                 src="/img/logo-footer.jpg"
                 alt="Herederos Logo"
@@ -73,9 +86,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8">
-          <p className="text-center text-gray-400">
+        <div className="border-t border-gray-800 pt-8 text-center">
+          <p className="text-gray-400">
             © {new Date().getFullYear()} Herederos. Todos los derechos reservados.
+          </p>
+          <p className="text-gray-600 text-sm mt-2">
+            Visitantes: {visitorCount}
           </p>
         </div>
       </div>
