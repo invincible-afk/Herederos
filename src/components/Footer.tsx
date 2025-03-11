@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, MapPin, Phone, Eye } from 'lucide-react';
 
 const Footer = () => {
   const [visitorCount, setVisitorCount] = useState(0);
@@ -90,9 +90,10 @@ const Footer = () => {
           <p className="text-gray-400">
             © {new Date().getFullYear()} Herederos. Todos los derechos reservados.
           </p>
-          <p className="text-gray-600 text-sm mt-2">
-            Visitantes: {visitorCount}
-          </p>
+          <div className="flex justify-center items-center text-gray-600 text-sm mt-2">
+            <Eye className="w-4 h-4 mr-1 text-gray-500" />
+            <span>{visitorCount}</span>
+          </div>
         </div>
       </div>
     </footer>
